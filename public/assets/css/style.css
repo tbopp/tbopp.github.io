@@ -124,7 +124,7 @@ i.fa {
     padding-top: .2em;
     padding-left: .5em;
     padding-right: .5em;
-    taransition: color 1s;
+    transition: color 1s;
 }
 
 .fa-fire:hover {
