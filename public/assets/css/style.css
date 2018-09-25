@@ -27,7 +27,7 @@ html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-    background-image: url('https://share.icloud.com/photos/0ZF_wfyhmIkbY1xIYeABPazFw');
+    background-image: url("/public/assets/img/CLOUD_SKY.jpg");
     min-height: 100%;
 
 }
