@@ -89,3 +89,22 @@ html {
 .cf:after {
     clear: both;
 }
+
+i.fa {
+    padding-top: .2em;
+    padding-left: .5em;
+    padding-right: .5em;
+    transition: color 1s;
+}
+
+.fa-facebook-official:hover {
+    color: #3B5998;
+}
+
+.fa-linkedin:hover {
+    color: #0077B5;
+}
+
+#branding {
+    font-size: 10px;
+}
