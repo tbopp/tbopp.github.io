@@ -15,6 +15,20 @@ html {
     line-height: 1.8;
 }
 
+/*Navbar Styles*/
+.w3-bar {
+    color: #fff;
+}
+
+.w3-bar.w3-animate-top {
+    color: #444;
+}
+
+.w3-bar li a:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+
 /* Create a Parallax Effect */
 .bgimg-1,
 .bgimg-2,
@@ -52,6 +66,7 @@ html {
     cursor: pointer;
 }
 
+
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1600px) {
 
@@ -61,4 +76,13 @@ html {
         background-attachment: scroll;
         min-height: 400px;
     }
+}
+
+/* Clearfix Hack */
+.cf:before,
+.cf:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
 }
