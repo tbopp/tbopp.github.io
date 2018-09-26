@@ -1,3 +1,6 @@
+// sticky hover fix in iOS
+(function(l){var i,s={touchend:function(){}};for(i in s)l.addEventListener(i,s)})(document);
+
 // Google Maps
 var myCenter = new google.maps.LatLng(30.267100, -97.743164);
 
