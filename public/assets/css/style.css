@@ -24,7 +24,7 @@ html {
     color: #444;
 }
 
-.w3-bar li a:hover, .w3-bar li a:active {
+.w3-bar li a:hover, .w3-bar li a:active, .w3-bar li a:focus {
     background-color: rgba(0, 0, 0, 0.2);
     color: #fff;
 }
