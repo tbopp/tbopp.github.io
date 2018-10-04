@@ -4,5 +4,9 @@
 }
 
 p.bio{
-text-indent: 40px
+text-indent: 30px
 }
+
+p.bio::first-letter {
+    font-size: 130%
+  }
