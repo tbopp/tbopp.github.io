@@ -7,6 +7,10 @@ body {
     font-family: Lato
 }
 
+html, body {
+    height:100%;
+}
+
 h1,
 h2,
 h3,
@@ -183,9 +187,11 @@ section h2 {
 header.masthead {
     padding-top: calc(6rem + 72px);
     padding-bottom: 6rem;
+    min-height: 600px;
 }
 
 header.masthead h1 {
+    padding-bottom: 2rem;
     font-size: 3rem;
     line-height: 3rem
 }
