@@ -1,8 +1,10 @@
+/* Devicons formating */
 .devicon {
     font-size: 65px;
     padding: 20px; 
 }
 
+/* About text effects for first line indentation and first letter size adjustment.  */
 p.bio{
 text-indent: 30px
 }
@@ -10,3 +12,24 @@ text-indent: 30px
 p.bio::first-letter {
     font-size: 130%
   }
+
+  /* Header - Masthead letter spacing for H1-Name and H2-Title */
+#h1-name {
+    letter-spacing: 3px;
+}
+
+#h2-title {
+    letter-spacing: 2px;
+}
+
+/* Portfolio Icons Zoom Effect */
+.zoom {
+    transition: transform .2s;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+}

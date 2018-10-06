@@ -59,17 +59,15 @@
   </nav>
 
   <!-- Header -->
-  <div id="header-bg">
     <header class="masthead bg-primary text-white text-center">
       <div class="container">
         <img class="img-fluid mb-5 d-block mx-auto" width="300" height="300" src="img/Ty_Grey_Cropped.png">
-        <h1 class="text-uppercase mb-1">Tyrell Bopp</h1>
-        <!-- <hr class="star-light"> -->
-        <h2 class="font-weight-dark mb-1">FULL STACK WEB DEVELOPER</h2>
-        <h2 class="font-weight-light mb-1"><i>Logically minded, creative at heart.</i></h2>
+        <h1 class="text-uppercase mb-1" id="h1-name">Tyrell Bopp</h1>
+        <hr class="star-light">
+        <h2 class="font-weight-dark mb-1" id="h2-title">FULL STACK WEB DEVELOPER</h2>
+        <h2 class="font-weight-light mb-1"id="h2-slogan">Logically minded, creatively driven.</h2>
       </div>
     </header>
-  </div>
 
   <!-- Portfolio Grid Section -->
   <section class="portfolio" id="portfolio">
@@ -77,7 +75,7 @@
       <h2 class="text-center text-uppercase text-secondary mb-0">Portfolio</h2>
       <hr class="star-dark mb-5">
       <div class="row">
-        <div class="col-md-6 col-lg-4">
+        <div class="col-md-6 col-lg-4 zoom">
           <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
             <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
               <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
@@ -87,7 +85,7 @@
             <img class="img-fluid" src="img/portfolio/census.jpg" alt="">
           </a>
         </div>
-        <div class="col-md-6 col-lg-4">
+        <div class="col-md-6 col-lg-4 zoom">
           <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
             <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
               <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
@@ -97,7 +95,7 @@
             <img class="img-fluid" src="img/portfolio/burger.png" alt="">
           </a>
         </div>
-        <div class="col-md-6 col-lg-4">
+        <div class="col-md-6 col-lg-4 zoom">
           <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
             <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
               <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
@@ -154,12 +152,11 @@
             broad experience working in Information Technology, I bring a unique perspective to my work as I've worn
             many hats over the years, working with both internal and external customers. While the hats may have
             changed, my desire to solve problems never did. I'm wildly passionate about the synergy between people and
-            technology and I live for developing creative solutions that just work.</p>
+            technology and my bread and butter is all the grey area in between.</p>
         </div>
         <div class="col-lg-6 mr-auto">
-          <p class="lead bio">When I'm not working or spending my free time continuously learning about web
-            development, I might be attending a local developers meetup group, hitting the gym, or out hiking trails. I love the outdoors
-            enjoy staying active. Traveling is how I reset and recharge. I'm always figuring out where my next adventure will be. I'm truly at my best when I'm out exploring someplace new, or simply relaxing on a beach.</p>
+          <p class="lead bio">When I'm not working or spending my free time learning something new about web
+            development, I might be attending a local developers meetup group, hitting the gym, or out hiking trails somewhere. I'm an adventure junkie - I love the outdoors and enjoy staying active. Traveling is how I reset and recharge. I'm always figuring out where my next adventure will be. I'm at my absolute best when I'm out exploring someplace new.</p>
         </div>
         <div class="row">
           <div class="col-lg-6 ml-auto">
@@ -270,10 +267,10 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4 mb-5 mb-lg-0">
-          <h4 class="text-uppercase mb-4">Location</h4>
-          <p class="lead mb-0">Beautiful
-            <br>Austin, TX</p>
-        </div>
+          <h4 class="text-uppercase mb-3">Location</h4>
+          <img class="img-fluid mx-auto" width="100" height="100" src="img/ATX_Icon_White.png">
+          <p class="lead mb-0">Austin, TX</p>
+          </div>
         <div class="col-md-4 mb-5 mb-lg-0">
           <h4 class="text-uppercase mb-4">Around the Web</h4>
           <ul class="list-inline mb-0">
@@ -394,7 +391,7 @@
           <div class="col-lg-8 mx-auto">
             <h2 class="text-secondary text-uppercase mb-0">Train Scheduler</h2>
             <hr class="star-dark mb-5">
-            <iframe src="https://drive.google.com/file/d/1j9c98ZhGDcpZrbh2QC5EHF0jKgf7_i_J/preview" width="640" height="480"></iframe>
+            <iframe src="https://drive.google.com/file/d/1U6LCedxx6fXnQAQg5HJpTlgGFhYrTVix/preview" width="640" height="480"></iframe>
             <p class="mb-4 mt-4">Class assignment. This is a website that allows you to add train information to a leaderboard and determine future departure times. Site was created using JavaScript logic with jQuery event handlers for DOM manipulation, and Moment.js NPM module to calculate time differentials against current time. New trains can be added to the board and are saved to a Firebase database. Bootstrap, Google Fonts, and custom CSS have been applied for aesthetics.</p>
             <p class="lead">Click <a href="https://tbopp.github.io/TrainScheduler/" target="_blank" title="View Site"
                 alt="Eat-Da-Burger">here </a>for a live demo, or check it out on <a href="https://github.com/tbopp/TrainScheduler"
