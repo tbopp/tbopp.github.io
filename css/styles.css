@@ -19,7 +19,7 @@ p.bio {
 }
 
 p.bio::first-letter {
-    font-size: 130%
+    font-size: 140%
 }
 
 /* Video container for projects, sizing to be relative to the view. This "wrapper" will allow for fluid screen size responsiveness */
