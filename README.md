@@ -10,5 +10,5 @@ Highlights a small collection of works that I am proud of with links to GitHub r
 - Progressive Web App (PWA)
 
 ## Developer
-[Tyrell Bopp](mailto:Mr.TyBopp@gmail.com)
+Tyrell Bopp
 Mr.TyBopp@gmail.com
