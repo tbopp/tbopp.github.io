@@ -15,7 +15,7 @@
 
 /* About text effects for first line indentation and first letter size adjustment.  */
 p.bio {
-    text-indent: 30px
+    text-indent: 30px;
 }
 
 p.bio::first-letter {
@@ -60,13 +60,4 @@ p.nounderline {
 a.nounderline {
     text-decoration: none;
     color: white;
-}
-
-#Ty_Creek {
-    max-width: 350px;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 8px;
 }
