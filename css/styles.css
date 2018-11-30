@@ -7,6 +7,32 @@
     letter-spacing: 2px;
 }
 
+span:before{
+    content: "FULL STACK WEB DEVELOPER";
+    animation: change 8s infinite;
+}
+
+@keyframes change {
+    0% {
+        content: "FULL STACK DEVELOPER";
+    }
+    20% {
+        content: "PROFESSIONAL PROBLEM SOLVER"
+    }
+    40% {
+        content: "FRONT END DEVELOPER"
+    }
+    60% {
+        content: "BACK END DEVELOPER"
+    }
+    80% {
+        content: "CONTINUOUS LEARNER"
+    }
+    100% {
+        content: "FULL STACK DEVELOPER";
+    }
+}
+
 /* Devicons formating */
 .devicon {
     font-size: 65px;
@@ -20,6 +46,10 @@ p.bio {
 
 p.bio::first-letter {
     font-size: 140%
+}
+
+#Ty_Creek {
+    border-radius: 3%
 }
 
 /* Video container for projects, sizing to be relative to the view. This "wrapper" will allow for fluid screen size responsiveness */
