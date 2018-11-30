@@ -1,3 +1,10 @@
+/* Main headshot formated */
+#headshot {
+    width: 500px;
+    height: auto;
+    border-radius: 3%
+}
+
 /* Header - Masthead letter spacing for H1-Name and H2-Title */
 #h1-name {
     letter-spacing: 3px;
@@ -9,7 +16,7 @@
 
 span:before{
     content: "FULL STACK WEB DEVELOPER";
-    animation: change 8s infinite;
+    animation: change 7s infinite;
 }
 
 @keyframes change {
@@ -17,19 +24,19 @@ span:before{
         content: "FULL STACK DEVELOPER";
     }
     20% {
-        content: "PROFESSIONAL PROBLEM SOLVER"
-    }
-    40% {
         content: "FRONT END DEVELOPER"
     }
-    60% {
+    40% {
         content: "BACK END DEVELOPER"
+    }
+    60% {
+        content: "PROFESSIONAL PROBLEM SOLVER"
     }
     80% {
         content: "CONTINUOUS LEARNER"
     }
     100% {
-        content: "FULL STACK DEVELOPER";
+        content: "FULL STACK DEVELOPER"
     }
 }
 
@@ -91,3 +98,36 @@ a.nounderline {
     text-decoration: none;
     color: white;
 }
+
+@-webkit-keyframes swinging{
+    0%{-webkit-transform: rotate(15deg);}
+    50%{-webkit-transform: rotate(-5deg)}
+    100%{-webkit-transform: rotate(15deg);}
+}
+ 
+@keyframes swinging{
+    0%{transform: rotate(15deg);}
+    50%{transform: rotate(-5deg)}
+    100%{transform: rotate(15deg);}
+}
+ 
+.swingimage{
+    -webkit-transform-origin: 0% 100%;
+    transform-origin: 0% 100%;
+    -webkit-animation: swinging 3.5s ease-in-out forwards infinite;
+    animation: swinging 3.5s ease-in-out forwards infinite;
+    max-width: 150px;
+    height: auto
+}
+
+.swingimageContainer {
+    float: none;
+    margin: 0 auto
+}
+
+.textContainer {
+    float: right;
+    vertical-align: middle;
+    vertical-align: -webkit-baseline-middle
+}
+
