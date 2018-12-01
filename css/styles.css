@@ -16,8 +16,8 @@
 
 span:before{
     content: "FULL STACK DEVELOPER";
-    animation: change 7s infinite;
-    -webkit-animation: change 7s infinite;
+    animation: change 6s infinite;
+    -webkit-animation: change 6s infinite;
 }
 
 @-webkit-keyframes change {
