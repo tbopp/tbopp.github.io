@@ -15,7 +15,7 @@
 }
 
 span:before{
-    content: "FULL STACK WEB DEVELOPER";
+    content: "FULL STACK DEVELOPER";
     animation: change 7s infinite;
 }
 
