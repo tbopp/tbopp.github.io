@@ -17,6 +17,28 @@
 span:before{
     content: "FULL STACK DEVELOPER";
     animation: change 7s infinite;
+    -webkit-animation: change 7s infinite
+}
+
+@-webkit-keyframes change {
+    0% {
+        content: "FULL STACK DEVELOPER";
+    }
+    20% {
+        content: "FRONT END DEVELOPER"
+    }
+    40% {
+        content: "BACK END DEVELOPER"
+    }
+    60% {
+        content: "PROFESSIONAL PROBLEM SOLVER"
+    }
+    80% {
+        content: "CONTINUOUS LEARNER"
+    }
+    100% {
+        content: "FULL STACK DEVELOPER"
+    }
 }
 
 @keyframes change {
