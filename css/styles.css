@@ -9,6 +9,7 @@
     -o-animation: fadein 2.5s; /* Opera */
 }
 
+/* Headshot animation */
 @keyframes fadein {
     from {
         opacity:0;
