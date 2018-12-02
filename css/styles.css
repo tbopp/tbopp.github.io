@@ -22,7 +22,7 @@ span:before{
 
 @-webkit-keyframes change {
     0% {
-        -webkit-content: "FULL STACK DEVELOPER";
+        content: "FULL STACK DEVELOPER";
     }
     20% {
         content: "FRONT END DEVELOPER"
