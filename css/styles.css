@@ -4,40 +4,56 @@
     height: auto;
     border-radius: 3%;
     animation: fadein 2.5s;
-    -moz-animation: fadein 2.5s; /* Firefox */
-    -webkit-animation: fadein 2.5s; /* Safari and Chrome */
-    -o-animation: fadein 2.5s; /* Opera */
+    -moz-animation: fadein 2.5s;
+    /* Firefox */
+    -webkit-animation: fadein 2.5s;
+    /* Safari and Chrome */
+    -o-animation: fadein 2.5s;
+    /* Opera */
 }
 
 /* Headshot animation */
 @keyframes fadein {
     from {
-        opacity:0;
+        opacity: 0;
     }
+
     to {
-        opacity:1;
+        opacity: 1;
     }
 }
-@-moz-keyframes fadein { /* Firefox */
+
+@-moz-keyframes fadein {
+
+    /* Firefox */
     from {
-        opacity:0;
+        opacity: 0;
     }
+
     to {
-        opacity:1;
+        opacity: 1;
     }
 }
-@-webkit-keyframes fadein { /* Safari and Chrome */
+
+@-webkit-keyframes fadein {
+
+    /* Safari and Chrome */
     from {
-        opacity:0;
+        opacity: 0;
     }
+
     to {
-        opacity:1;
+        opacity: 1;
     }
 }
-@-o-keyframes fadein { /* Opera */
+
+@-o-keyframes fadein {
+
+    /* Opera */
     from {
-        opacity:0;
+        opacity: 0;
     }
+
     to {
         opacity: 1;
     }
@@ -52,7 +68,7 @@
     letter-spacing: 2px;
 }
 
-span:before{
+span:before {
     content: "FULL STACK DEVELOPER";
     animation: change 6s infinite;
     -webkit-animation: change 6s infinite;
@@ -62,18 +78,23 @@ span:before{
     0% {
         content: "FULL STACK DEVELOPER"
     }
+
     20% {
         content: "FRONT END DEVELOPER"
     }
+
     40% {
         content: "BACK END DEVELOPER"
     }
+
     60% {
         content: "PROFESSIONAL PROBLEM SOLVER"
     }
+
     80% {
         content: "CONTINUOUS LEARNER"
     }
+
     100% {
         content: "FULL STACK DEVELOPER"
     }
@@ -83,18 +104,23 @@ span:before{
     0% {
         content: "FULL STACK DEVELOPER";
     }
+
     20% {
         content: "FRONT END DEVELOPER"
     }
+
     40% {
         content: "BACK END DEVELOPER"
     }
+
     60% {
         content: "PROFESSIONAL PROBLEM SOLVER"
     }
+
     80% {
         content: "CONTINUOUS LEARNER"
     }
+
     100% {
         content: "FULL STACK DEVELOPER"
     }
@@ -121,19 +147,20 @@ p.bio::first-letter {
 
 /* Video container for projects, sizing to be relative to the view. This "wrapper" will allow for fluid screen size responsiveness */
 .videoWrapper {
-	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
-	padding-top: 25px;
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    padding-top: 25px;
     height: 0;
 }
 
 /* Positioning video element absolutlely inside of parent container (wrapper) at full size. */
 .videoWrapper iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 /* Portfolio Icons Zoom Effect */
@@ -160,17 +187,33 @@ a.nounderline {
 }
 
 @-webkit-keyframes swinging {
-    0%{-webkit-transform: rotate(15deg);}
-    50%{-webkit-transform: rotate(-5deg)}
-    100%{-webkit-transform: rotate(15deg);}
+    0% {
+        -webkit-transform: rotate(15deg);
+    }
+
+    50% {
+        -webkit-transform: rotate(-5deg)
+    }
+
+    100% {
+        -webkit-transform: rotate(15deg);
+    }
 }
- 
+
 @keyframes swinging {
-    0%{transform: rotate(15deg);}
-    50%{transform: rotate(-5deg)}
-    100%{transform: rotate(15deg);}
+    0% {
+        transform: rotate(15deg);
+    }
+
+    50% {
+        transform: rotate(-5deg)
+    }
+
+    100% {
+        transform: rotate(15deg);
+    }
 }
- 
+
 .swingimage {
     -webkit-transform-origin: 0% 100%;
     transform-origin: 0% 100%;
@@ -197,4 +240,3 @@ a.nounderline {
     vertical-align: middle;
     vertical-align: -webkit-baseline-middle
 }
-
