@@ -16,7 +16,7 @@ Professional Portfolio of Tyrell Bopp. This site highlights a brief collection o
 - Progressive Web App (PWA) - Looks and feels like an app when saved to a mobile device's home screen.
 
 ## Developer
-Coded with <3 by:  
+</> with <3 by:  
  Tyrell Bopp  
  Mr.TyBopp@gmail.com
 
