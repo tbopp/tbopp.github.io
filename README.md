@@ -1,4 +1,4 @@
-![alt text](https://github.com/tbopp/tbopp.github.io/tree/master/img/Portfolio.gif "Logo Title Text 1")
+![alt text](https://github.com/tbopp/tbopp.github.io/blob/master/img/Portfolio.gif?raw=true "Logo Title Text 1")
 
 # Professional Portfolio of Tyrell Bopp
 Professional Portfolio of Tyrell Bopp
