@@ -19,4 +19,5 @@ Professional Portfolio of Tyrell Bopp. This site highlights a brief collection o
 </> with <3 by:  
  Tyrell Bopp  
  Mr.TyBopp@gmail.com
+ http://tyrellbopp.com
 
