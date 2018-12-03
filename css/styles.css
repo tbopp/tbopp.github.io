@@ -13,7 +13,6 @@
 }
 
 .fadeAnimate1 {
-    animation-delay: 1s;
     animation: fadein 2.5s;
     -moz-animation: fadein 2.5s;
     /* Firefox */
