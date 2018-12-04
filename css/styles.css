@@ -2,6 +2,7 @@
 #headshot {
     width: 300px;
     height: auto;
+    border: 2px solid white;
     border-radius: 50%;
     animation: fadein 2.5s;
     -moz-animation: fadein 2.5s;
@@ -151,8 +152,16 @@ p.bio::first-letter {
     font-size: 140%
 }
 
+@media only screen and (max-width: 768px) {
+    #Ty_Creek {
+        width: 300px
+    }
+}
+
 #Ty_Creek {
-    border-radius: 3%
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 300px;
 }
 
 /* Video container for projects, sizing to be relative to the view. This "wrapper" will allow for fluid screen size responsiveness */
