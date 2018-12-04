@@ -1,8 +1,8 @@
 /* Main headshot formated */
 #headshot {
-    width: 500px;
+    width: 300px;
     height: auto;
-    border-radius: 3%;
+    border-radius: 50%;
     animation: fadein 2.5s;
     -moz-animation: fadein 2.5s;
     /* Firefox */
