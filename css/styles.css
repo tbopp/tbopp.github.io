@@ -74,35 +74,37 @@ span:before {
     content: "FULL STACK DEVELOPER";
     animation: change 6s infinite;
     -webkit-animation: change 6s infinite;
+    -webkit-animation-duration: 6s;
+    -webkit-animation-iteration-count: infinite;
 }
 
-@keyframes change {
+@-webkit-keyframes change {
     0% {
         content: "FULL STACK DEVELOPER";
     }
 
     16.6% {
-        content: "FRONT END DEVELOPER"
+        content: "FRONT END DEVELOPER";
     }
 
     33.2% {
-        content: "BACK END DEVELOPER"
+        content: "BACK END DEVELOPER";
     }
 
     49.8% {
-        content: "PROFESSIONAL PROBLEM SOLVER"
+        content: "PROFESSIONAL PROBLEM SOLVER";
     }
 
     66.4% {
-        content: "CONTINUOUS LEARNER"
+        content: "CONTINUOUS LEARNER";
     }
 
     83.4% {
-        content: "WEB DESIGNER"
+        content: "WEB DESIGNER";
     }
 
     100% {
-        content: "FULL STACK DEVELOPER"
+        content: "FULL STACK DEVELOPER";
     }
 }
 
