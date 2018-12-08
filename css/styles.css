@@ -70,12 +70,19 @@
     }
 }
 
+span {
+     display: block;
+ }
+
 span:before {
+    display: block;
     content: "FULL STACK DEVELOPER";
     animation: change 6s infinite;
-    -webkit-animation: change 6s infinite;
+    -webkit-animation-name: change;
     -webkit-animation-duration: 6s;
+    -webkit-animation-delay: .3s;
     -webkit-animation-iteration-count: infinite;
+    
 }
 
 @-webkit-keyframes change {
