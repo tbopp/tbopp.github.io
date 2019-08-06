@@ -204,6 +204,12 @@ p.bio::first-letter {
     transform: scale(1.1);
 }
 
+div.about-portrait1-wrapper {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
 p.nounderline {
     text-decoration-color: white
 }
@@ -266,4 +272,10 @@ a.nounderline {
     float: right;
     vertical-align: middle;
     vertical-align: -webkit-baseline-middle
+}
+
+div.skills-grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
 }
