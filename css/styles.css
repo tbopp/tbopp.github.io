@@ -208,6 +208,7 @@ div.about-portrait1-wrapper {
     display: flex;
     flex-flow: column;
     justify-content: center;
+    height: 100%;
 }
 
 p.nounderline {
