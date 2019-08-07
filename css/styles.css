@@ -280,3 +280,7 @@ div.skills-grid {
     flex-flow: row wrap;
     justify-content: space-between;
 }
+
+ul.portfolio-list {
+    list-style: none;
+}
