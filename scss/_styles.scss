@@ -1,0 +1,287 @@
+/* Main headshot formated */
+#headshot {
+    width: 300px;
+    height: auto;
+    border: 2px solid white;
+    border-radius: 50%;
+    animation: fadein 2.5s;
+    -moz-animation: fadein 2.5s;
+    /* Firefox */
+    -webkit-animation: fadein 2.5s;
+    /* Safari and Chrome */
+    -o-animation: fadein 2.5s;
+    /* Opera */
+}
+
+.fadeAnimate1 {
+    animation: fadein 2.5s;
+    -moz-animation: fadein 2.5s;
+    /* Firefox */
+    -webkit-animation: fadein 2.5s;
+    /* Safari and Chrome */
+    -o-animation: fadein 2.5s;
+    /* Opera */
+}
+
+/* Headshot animation */
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadein {
+
+    /* Firefox */
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadein {
+
+    /* Safari and Chrome */
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadein {
+
+    /* Opera */
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+span {
+     display: block;
+ }
+
+span:before {
+    display: block;
+    content: "FULL STACK DEVELOPER";
+    animation: change 6s infinite;
+    -webkit-animation-name: change;
+    -webkit-animation-duration: 6s;
+    -webkit-animation-delay: .3s;
+    -webkit-animation-iteration-count: infinite;
+    
+}
+
+@-webkit-keyframes change {
+    0% {
+        content: "FULL STACK DEVELOPER";
+    }
+
+    16.6% {
+        content: "FRONT END DEVELOPER";
+    }
+
+    33.2% {
+        content: "BACK END DEVELOPER";
+    }
+
+    49.8% {
+        content: "PROFESSIONAL PROBLEM SOLVER";
+    }
+
+    66.4% {
+        content: "CONTINUOUS LEARNER";
+    }
+
+    83.4% {
+        content: "WEB DESIGNER";
+    }
+
+    100% {
+        content: "FULL STACK DEVELOPER";
+    }
+}
+
+@keyframes change {
+    0% {
+        content: "FULL STACK DEVELOPER";
+    }
+
+    16.6% {
+        content: "FRONT END DEVELOPER"
+    }
+
+    33.2% {
+        content: "BACK END DEVELOPER"
+    }
+
+    49.8% {
+        content: "PROFESSIONAL PROBLEM SOLVER"
+    }
+
+    66.4% {
+        content: "CONTINUOUS LEARNER"
+    }
+
+    83.4% {
+        content: "WEB DESIGNER"
+    }
+
+    100% {
+        content: "FULL STACK DEVELOPER"
+    }
+}
+
+/* Devicons formating */
+.devicon {
+    font-size: 65px;
+    padding: 20px;
+}
+
+/* About text effects for first line indentation and first letter size adjustment.  */
+p.bio {
+    text-indent: 30px;
+}
+
+p.bio::first-letter {
+    font-size: 140%
+}
+
+@media only screen and (max-width: 768px) {
+    #Ty_Creek {
+        width: 300px
+    }
+}
+
+#Ty_Creek {
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 300px;
+}
+
+/* Video container for projects, sizing to be relative to the view. This "wrapper" will allow for fluid screen size responsiveness */
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+
+/* Positioning video element absolutlely inside of parent container (wrapper) at full size. */
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Portfolio Icons Zoom Effect */
+.zoom {
+    transition: transform .2s;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.1);
+    /* IE 9 */
+    -webkit-transform: scale(1.1);
+    /* Safari 3-8 */
+    transform: scale(1.1);
+}
+
+div.about-portrait1-wrapper {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    height: 100%;
+}
+
+p.nounderline {
+    text-decoration-color: white
+}
+
+a.nounderline {
+    text-decoration: none;
+    color: white;
+}
+
+@-webkit-keyframes swinging {
+    0% {
+        -webkit-transform: rotate(15deg);
+    }
+
+    50% {
+        -webkit-transform: rotate(-5deg)
+    }
+
+    100% {
+        -webkit-transform: rotate(15deg);
+    }
+}
+
+@keyframes swinging {
+    0% {
+        transform: rotate(15deg);
+    }
+
+    50% {
+        transform: rotate(-5deg)
+    }
+
+    100% {
+        transform: rotate(15deg);
+    }
+}
+
+.swingimage {
+    -webkit-transform-origin: 0% 100%;
+    transform-origin: 0% 100%;
+    -webkit-animation: swinging 3.5s ease-in-out forwards infinite;
+    animation: swinging 3.5s ease-in-out forwards infinite;
+    max-width: 150px;
+    height: auto
+}
+
+.swingimage:hover {
+    -webkit-transform-origin: 0% 100%;
+    transform-origin: 0% 100%;
+    -webkit-animation: swinging 1s ease-in-out forwards infinite;
+    animation: swinging 1s ease-in-out forwards infinite;
+}
+
+.swingimageContainer {
+    float: none;
+    margin: 0 auto
+}
+
+.textContainer {
+    float: right;
+    vertical-align: middle;
+    vertical-align: -webkit-baseline-middle
+}
+
+div.skills-grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+ul.portfolio-list {
+    list-style: none;
+    padding: 0;
+}
